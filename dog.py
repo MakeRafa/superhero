@@ -8,9 +8,11 @@ class Dog:
     def bark(self):
         print("Woof!")
 
-my_dog = Dog("jon", "SuperDog")
-# my_dog.breed = "SuperDog"
-# print(my_dog)
-# print(my_dog.name)
-print(my_dog.breed)
-my_dog.bark()
+    def sit(self):
+        print(f"{self.name} sat down")
+
+
+    def roll(self):
+        print(f"{self.name} rolled over")
+
+
